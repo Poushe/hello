@@ -1,0 +1,169 @@
+.section-heading{
+    padding-bottom: 20px;
+}
+.home-section {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding-top: 150px;
+    @include down-md {
+        padding-top: 130px;
+    }
+
+    .hs-text-box {
+        @include down-md {
+            padding-bottom: 50px;
+        }
+        h6 {
+            margin: 0 0 10px;
+            span {
+                background: rgba(var(--px-theme-rgb), 0.2);
+                border-radius: 4px;
+                padding: 5px 12px;
+                display: inline-block;
+                color: var(--px-white);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+            }
+        }
+        h1 {
+            color: var(--px-white);
+            font-weight: 700;
+            font-size: 70px;
+            text-transform: uppercase;
+            @include down-lg {
+                font-size: 45px;
+            }
+            @include down-sm {
+                font-size: 38px;
+            }
+        }
+        h2 {
+            color: var(--px-theme);
+            font-weight: 700;
+            font-size: 70px;
+            text-transform: uppercase;
+            margin: 0 0 30px;
+            @include down-lg {
+                font-size: 45px;
+                margin: 0 0 20px;
+            }
+            @include down-sm {
+                font-size: 38px;
+                margin: 0 0 10px;
+            }
+        }
+        .text {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            letter-spacing: 0.01em;
+            color: var(--px-white);
+            @include down-lg {
+                font-size: 18px;
+            }
+            @include down-sm {
+                font-size: 16px;
+            }
+        }
+        .btn-bar {
+            padding-top: 15px;
+        }
+    }
+}
+.hs-banner img {
+    max-width: 100%;
+    max-height:100%;
+  }
+
+  /* ----------------------
+*   Free Time
+---------------------------*/
+.free-time{
+    margin-top: 50px;
+    padding-top: 120px;
+    .text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: var(--px-white);
+        @include down-lg {
+            font-size: 18px;
+        }
+    }
+    .btn{
+        margin-top: 20px;
+    }
+}
+
+/* ----------------------
+*   cooking-diary
+---------------------------*/
+.cooking-diary{
+    margin-top: 30px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+.cooking-box {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    &:after {
+        content: "";
+        background: linear-gradient(180deg, rgba(4, 12, 22, 0) 0%, #040C16 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .dairy-body {
+        padding: 20px;
+        position: relative;
+        z-index: 1;
+        p {
+            color: var(--px-white);
+            font-size: 14px;
+            line-height: 140%;
+            opacity: 0.65;
+            margin: 0 0 15px;
+        }
+    }
+}
+
+.contact-form {
+    margin-top: 30px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    .form-label{
+        color: var(--px-white);
+        margin: 0 0 4px;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        opacity: .85;
+    }
+    .form-control {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        color: var(--px-white);
+        box-shadow: none;
+        padding: 0.575rem .75rem;
+    }
+}
+
+.contactus-form {
+    border-top: 1px solid rgba(var(--px-theme-rgb), 0.2);
+    background: rgba(var(--px-theme-rgb), 0.1);
+}

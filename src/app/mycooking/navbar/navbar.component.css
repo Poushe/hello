@@ -1,0 +1,22 @@
+.navbar > container-fluid{
+    padding: 10px;
+    background-color:black;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-item a{
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-item a:hover{
+    color: #9e9797;
+    font-size: 20px;
+    font-style: normal;
+}
